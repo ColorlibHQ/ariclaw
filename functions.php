@@ -116,9 +116,7 @@
 	// Customizer
 	require_once( ARICLAW_DIR_PATH_INC . 'customizer/customizer.php' );
 	// Class autoloader
-	require_once( ARICLAW_DIR_PATH_INC . 'class-epsilon-dashboard-autoloader.php' );
 	// Class ariclaw dashboard
-	require_once( ARICLAW_DIR_PATH_INC . 'class-epsilon-init-dashboard.php' );
 	// Common css
 	require_once( ARICLAW_DIR_PATH_INC . 'ariclaw-commoncss.php' );
 
@@ -204,3 +202,11 @@ if ( ! function_exists( 'ariclaw_modern_supports' ) ) {
 	}
 	add_action( 'after_setup_theme', 'ariclaw_modern_supports', 20 );
 }
+
+/**
+ * The theme's Customizer controls.
+ *
+ * Replaces the Epsilon framework: same fields and stored values,
+ * built on core's Customizer API.
+ */
+require_once get_template_directory() . '/inc/customizer/colorlib-customizer/colorlib-customizer.php';
