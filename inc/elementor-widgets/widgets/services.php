@@ -60,7 +60,7 @@ class Ariclaw_Services extends Widget_Base {
                         'name'      => 'icon',
                         'label'     => __( 'Select Icon', 'ariclaw' ),
                         'type'      => Controls_Manager::ICON,
-                        'default'   => 'fa fa-book'
+                        'default'   => 'fa-solid fa-book'
                     ],
                     [
                         'name'  => 'label',
