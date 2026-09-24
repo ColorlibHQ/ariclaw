@@ -14,6 +14,7 @@ function ariclaw_sl_enqueue_scripts() {
 
 	wp_localize_script( 'ariclaw-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
+		'like'    => esc_html__( 'Like', 'ariclaw' ),
 		'unlike'  => esc_html__( 'Unlike', 'ariclaw' )
 	) );
 }

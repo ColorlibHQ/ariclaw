@@ -251,7 +251,7 @@
 						'handler'		=> 'ariclaw-theme-ariclaw-custom',
 						'file' 			=> $jsPath.'custom.js',
 						'dependency' 	=> array( 'ariclaw-ui-js' ),
-						'version' 		=> $this->ariclaw_version . '-s2',
+						'version' 		=> $this->ariclaw_version . '-s3',
 						'in_footer' 	=> true
 					),
 
