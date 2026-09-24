@@ -254,13 +254,6 @@
 						'in_footer' 	=> true
 					),
 					array(
-						'handler'		=> 'ariclaw-theme-instagram-feed-js',
-						'file' 			=> $jsPath.'jquery.instagramFeed.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
-						'in_footer' 	=> true
-					),
-					array(
 						'handler'		=> 'ariclaw-theme-owl-carousel-js',
 						'file' 			=> $jsPath.'owl.carousel.min.js',
 						'dependency' 	=> array( 'jquery' ),
@@ -281,19 +274,19 @@
 						'version' 		=> '1.0',
 						'in_footer' 	=> true
 					),
+					
 					array(
-						'handler'		=> 'ariclaw-theme-jquery-nice-select',
-						'file' 			=> $jsPath.'jquery.nice-select.min.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> '1.0',
+						'handler'		=> 'ariclaw-ui-js',
+						'file' 			=> $jsPath.'colorlib-ui.js',
+						'dependency' 	=> array(),
+						'version' 		=> '2.1.1',
 						'in_footer' 	=> true
 					),
-					
 					array(
 						'handler'		=> 'ariclaw-theme-ariclaw-custom',
 						'file' 			=> $jsPath.'custom.js',
-						'dependency' 	=> array( 'jquery' ),
-						'version' 		=> $this->ariclaw_version,
+						'dependency' 	=> array( 'jquery', 'ariclaw-ui-js' ),
+						'version' 		=> $this->ariclaw_version . '-s1',
 						'in_footer' 	=> true
 					),
 
