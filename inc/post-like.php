@@ -10,7 +10,7 @@
 add_action( 'wp_enqueue_scripts', 'ariclaw_sl_enqueue_scripts' );
 function ariclaw_sl_enqueue_scripts() {
 
-	wp_enqueue_script( 'ariclaw-post-likes', ARICLAW_DIR_JS_URI . 'post-likes.js', array( 'jquery' ), '0.5', false );
+	wp_enqueue_script( 'ariclaw-post-likes', ARICLAW_DIR_JS_URI . 'post-likes.js', array( 'ariclaw-ui-js' ), '0.5-s2', true );
 
 	wp_localize_script( 'ariclaw-post-likes', 'simpleLikes', array(
 		'ajaxurl' => admin_url( 'admin-ajax.php' ),
