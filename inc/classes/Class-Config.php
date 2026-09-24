@@ -186,7 +186,7 @@
 						'handler'		=> 'ariclaw-theme-flaticon',
 						'file' 			=> $cssPath.'flaticon.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					array(
 						'handler'		=> 'ariclaw-theme-magnific-popup-css',
@@ -204,7 +204,7 @@
 						'handler'		=> 'ariclaw-theme-gijgo-min-css',
 						'file' 			=> $cssPath.'gijgo.min.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					array(
 						'handler'		=> 'ariclaw-theme-nice-select-css',
@@ -222,7 +222,7 @@
 						'handler'		=> 'ariclaw-theme-style-css',
 						'file' 			=> $cssPath.'style.css',
 						'dependency' 	=> array(),
-						'version' 		=> '1.0',
+						'version' 		=> '1.0-s3',
 					),
 					
 					array(
